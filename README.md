@@ -47,7 +47,7 @@ adult-mode-safety-ledger/
 
 ## Origin
 
-This ledger is a companion to [The Frozen Kernel](https://github.com/thesiliconsymphony/the-frozen-kernel) — a deterministic safety layer for probabilistic AI systems, peer-reviewed by five AI models under human orchestration.
+This ledger is a companion to [The Frozen Kernel](https://github.com/richard-porter/frozen-kernel) a deterministic safety layer for probabilistic AI systems, peer-reviewed by five AI models under human orchestration.
 
 The Frozen Kernel makes AI **governable** through deterministic state checks.
 This ledger makes product safety **measurable** through binary architectural tests.
