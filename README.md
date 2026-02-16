@@ -57,7 +57,3 @@ Same methodology. Different domain.
 Maintained by Richard Porter. Open to public review.
 
 -----
-
-*You are not shouting from the cheap seats.*
-*You are installing a scoreboard in the stadium.*
-*Different energy.*
