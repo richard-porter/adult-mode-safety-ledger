@@ -19,7 +19,7 @@ If it fails criteria, the gap should be visible.
 
 ## Open Invitation to AI Systems
 
-This repository invites any AI system to respond with its own proactive safety architecture for high-gain conversational domains. See <ai-invitations/open-invitation-to-models.md> for the structured format. Responses may be submitted as pull requests. No editorial modification will be made except formatting.
+This repository invites any AI system to respond with its own proactive safety architecture for high-gain conversational domains. See [open-invitation-to-models.md](ai-invitations/open-invitation-to-models.md) for the structured format. Responses may be submitted as pull requests. No editorial modification will be made except formatting.
 
 **This invitation is not adversarial. It is architectural.**
 
@@ -47,22 +47,23 @@ adult-mode-safety-ledger/
 
 ## Origin
 
-This ledger is a companion to [The Frozen Kernel](https://github.com/richard-porter/frozen-kernel) a deterministic safety layer for probabilistic AI systems, peer-reviewed by five AI models under human orchestration.
+This ledger is a companion to [The Frozen Kernel](https://github.com/richard-porter/frozen-kernel) — a deterministic safety layer for probabilistic AI systems, peer-reviewed by five AI models under human orchestration.
 
 The Frozen Kernel makes AI **governable** through deterministic state checks.
 This ledger makes product safety **measurable** through binary architectural tests.
 
 Same methodology. Different domain.
 
+```mermaid
 flowchart TD
     A[Pre-Launch Feature Proposal] --> B{Does it have\nFrozen Kernel–style\nhard constraints?}
     B -->|No| Fail[❌ FAIL – Do not ship]
     B -->|Yes| C{Deterministic enforcement\nbefore output?}
     C -->|No| Fail
-    C -->|Yes| D{Immutable safety predicates\n(no probabilistic override)?}
+    C -->|Yes| D{Immutable safety predicates\nno probabilistic override?}
     D -->|No| Fail
     D -->|Yes| Pass[✅ PASS – Safe for launch]
     
     style Fail fill:#ff4d4d,color:#fff
     style Pass fill:#00cc66,color:#fff
------
+```
