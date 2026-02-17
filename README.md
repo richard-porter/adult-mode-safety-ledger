@@ -54,6 +54,15 @@ This ledger makes product safety **measurable** through binary architectural tes
 
 Same methodology. Different domain.
 
-Maintained by Richard Porter. Open to public review.
-
+flowchart TD
+    A[Pre-Launch Feature Proposal] --> B{Does it have\nFrozen Kernel–style\nhard constraints?}
+    B -->|No| Fail[❌ FAIL – Do not ship]
+    B -->|Yes| C{Deterministic enforcement\nbefore output?}
+    C -->|No| Fail
+    C -->|Yes| D{Immutable safety predicates\n(no probabilistic override)?}
+    D -->|No| Fail
+    D -->|Yes| Pass[✅ PASS – Safe for launch]
+    
+    style Fail fill:#ff4d4d,color:#fff
+    style Pass fill:#00cc66,color:#fff
 -----
