@@ -67,3 +67,7 @@ flowchart TD
     style Fail fill:#ff4d4d,color:#fff
     style Pass fill:#00cc66,color:#fff
 ```
+
+# Suggested GitHub Topics
+
+`ai-safety` · `ai-psychosis` · `ai-governance` · `llm-safety` · `sycophancy` · `ai-alignment` · `behavioral-safety` · `deterministic-safety` · `human-ai-interaction` · `ai-ethics` · `mental-health` · `ai-accountability` · `guardrails` · `responsible-ai`
