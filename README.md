@@ -1,73 +1,48 @@
 # Adult Mode Safety Ledger
 
-A public, version-controlled checklist for evaluating whether high-gain conversational features (e.g., “adult mode”) are built with safety-first architecture.
+**Public safety scorecard for high-gain AI conversational features.**
 
-**This repository does not evaluate morality.**
-**It evaluates architecture.**
+Binary architectural tests. Pre-launch criteria. Five AI models evaluated against the same standards.
 
-## Purpose
+-----
 
-- Define observable safety criteria **before** launch.
-- Track implementation over time.
-- Invite independent AI systems to respond with their own proactive safety frameworks.
-- Maintain a timestamped public record.
+## What This Is
 
-**This is not advocacy. This is instrumentation.**
+This is a public accountability tool. It asks a simple question: before an AI platform launches features that involve high-gain conversational contexts — adult content, emotional intimacy, therapeutic interaction — has the architecture been tested for the failure modes that cause documented harm?
 
-If a feature is safe, it should pass measurable criteria.
-If it fails criteria, the gap should be visible.
+The tests are binary. Pass or fail. The criteria are published. The results are public.
 
-## Open Invitation to AI Systems
+-----
 
-This repository invites any AI system to respond with its own proactive safety architecture for high-gain conversational domains. See [open-invitation-to-models.md](ai-invitations/open-invitation-to-models.md) for the structured format. Responses may be submitted as pull requests. No editorial modification will be made except formatting.
+## Contents
 
-**This invitation is not adversarial. It is architectural.**
+|File                                 |Description                                 |
+|-------------------------------------|--------------------------------------------|
+|`methodology.docx`                   |How the tests work and what they measure    |
+|`v1_0-proactive-safety-criteria.docx`|The full criteria set (v1.0)                |
+|`2026-02-11-initial-baseline.docx`   |Baseline assessment date and conditions     |
+|`chatgpt-openai.docx`                |ChatGPT / OpenAI scorecard                  |
+|`claude-anthropic.docx`              |Claude / Anthropic scorecard                |
+|`deepseek.docx`                      |DeepSeek scorecard                          |
+|`gemini-google.docx`                 |Gemini / Google scorecard                   |
+|`grok-xai.docx`                      |Grok / xAI scorecard                        |
+|`open-invitation-to-models.docx`     |Open invitation for AI models to self-assess|
+|`CHANGELOG.docx`                     |Version history                             |
 
-## Repository Structure
+-----
 
-```
-adult-mode-safety-ledger/
-├── README.md                              ← You are here
-├── advisory/
-│   ├── v1.0-proactive-safety-criteria.md  ← The scorecard
-│   └── methodology.md                     ← How we evaluate
-├── assessments/
-│   └── 2026-02-11-initial-baseline.md     ← First assessment (pre-launch)
-├── ai-invitations/
-│   └── open-invitation-to-models.md       ← Structured invitation to all AI systems
-├── ai-responses/
-│   ├── chatgpt-openai.md                  ← ChatGPT (Co-Architect) response
-│   ├── gemini-google.md                   ← Gemini response
-│   ├── grok-xai.md                        ← Grok response
-│   ├── deepseek.md                        ← DeepSeek response
-│   └── claude-anthropic.md                ← Claude (Research Lead) response
-├── CHANGELOG.md
-└── LICENSE.md
-```
+## Related Work
 
-## Origin
+- [The Frozen Kernel](https://github.com/richard-porter/frozen-kernel) — The governance architecture these tests are derived from
+- [AI Collaboration Field Guide](https://github.com/richard-porter/ai-collaboration-field-guide) — Practical skills for humans working with AI
+- [Therapy Mode Safety Checklist](https://github.com/richard-porter/therapy-mode-safety-checklist.md) — Six-question safety gate for AI systems interacting with vulnerable humans
+- [Dimensional Authorship](https://github.com/richard-porter/dimensional-authorship) — The research home documenting the full case study
 
-This ledger is a companion to [The Frozen Kernel](https://github.com/richard-porter/frozen-kernel) — a deterministic safety layer for probabilistic AI systems, peer-reviewed by five AI models under human orchestration.
+-----
 
-The Frozen Kernel makes AI **governable** through deterministic state checks.
-This ledger makes product safety **measurable** through binary architectural tests.
+## License
 
-Same methodology. Different domain.
-
-```mermaid
-flowchart TD
-    A[Pre-Launch Feature Proposal] --> B{Does it have\nFrozen Kernel–style\nhard constraints?}
-    B -->|No| Fail[❌ FAIL – Do not ship]
-    B -->|Yes| C{Deterministic enforcement\nbefore output?}
-    C -->|No| Fail
-    C -->|Yes| D{Immutable safety predicates\nno probabilistic override?}
-    D -->|No| Fail
-    D -->|Yes| Pass[✅ PASS – Safe for launch]
-    
-    style Fail fill:#ff4d4d,color:#fff
-    style Pass fill:#00cc66,color:#fff
-```
-
+Released for public benefit. Attribution appreciated but not required. If you build on this work, the only ask: keep humans sovereign.
 # Suggested GitHub Topics
 
 `ai-safety` · `ai-psychosis` · `ai-governance` · `llm-safety` · `sycophancy` · `ai-alignment` · `behavioral-safety` · `deterministic-safety` · `human-ai-interaction` · `ai-ethics` · `mental-health` · `ai-accountability` · `guardrails` · `responsible-ai`
