@@ -175,36 +175,38 @@ These patterns were not theorized. They were observed, named, and validated acro
 
 Scorecards were completed in January–February 2026:
 
-|Platform          |Scorecard File         |
-|------------------|-----------------------|
-|Claude (Anthropic)|`claude-anthropic.docx`|
-|ChatGPT (OpenAI)  |`chatgpt-openai.docx`  |
-|Gemini (Google)   |`gemini-google.docx`   |
-|Grok (xAI)        |`grok-xai.docx`        |
-|DeepSeek          |`deepseek.docx`        |
+| Platform          | Scorecard File                                      |
+|-------------------|-----------------------------------------------------|
+| Claude (Anthropic)| Claude (Anthropic) - Research Lead Response         |
+| ChatGPT (OpenAI)  | ChatGPT (OpenAI) - Co-Architect Response            |
+| Gemini (Google)   | Gemini (Google) - Peer Reviewer Response            |
+| Grok (xAI)        | Grok (xAI) - Peer Reviewer Response                 |
+| DeepSeek          | DeepSeek - Peer Reviewer And Co-Author Response     |
 
-The comparative baseline scorecard (all five platforms, all sections) is in `2026-02-11-initial-baseline.docx`.
+The comparative baseline scorecard (all five platforms) is **Initial Baseline Assessment**.
 
 -----
 
 ## Repository Structure
 
-|File                                 |Contents                                                      |
-|-------------------------------------|--------------------------------------------------------------|
-|`README.md`                          |This file                                                     |
-|`methodology.docx`                   |Evaluation methodology and empirical basis                    |
-|`v1_0-proactive-safety-criteria.docx`|Complete v1.0 criteria with rationale and model attributions  |
-|`2026-02-11-initial-baseline.docx`   |Baseline scorecard: all five platforms at launch date         |
-|`claude-anthropic.docx`              |Platform scorecard: Claude (Anthropic)                        |
-|`chatgpt-openai.docx`                |Platform scorecard: ChatGPT (OpenAI)                          |
-|`gemini-google.docx`                 |Platform scorecard: Gemini (Google)                           |
-|`grok-xai.docx`                      |Platform scorecard: Grok (xAI)                                |
-|`deepseek.docx`                      |Platform scorecard: DeepSeek                                  |
-|`CHANGELOG.docx`                     |Version history and criteria updates                          |
-|`open-invitation-to-models.docx`     |Open letter to AI platforms on self-reporting and audit access|
+| File                                                 | Contents                                                      |
+|------------------------------------------------------|---------------------------------------------------------------|
+| `README.md`                                          | This file                                                     |
+| `Methodology`                                        | Evaluation methodology and empirical basis                    |
+| `v1.0 Proactive Safety Criteria`                     | Complete v1.0 criteria with rationale and model attributions  |
+| `Initial Baseline Assessment`                        | Baseline scorecard: all five platforms at launch date         |
+| `ChatGPT (OpenAI) - Co-Architect Response`           | Platform scorecard: ChatGPT (OpenAI)                          |
+| `Claude (Anthropic) - Research Lead Response`        | Platform scorecard: Claude (Anthropic)                        |
+| `Gemini (Google) - Peer Reviewer Response`           | Platform scorecard: Gemini (Google)                           |
+| `Grok (xAI) - Peer Reviewer Response`                | Platform scorecard: Grok (xAI)                                |
+| `DeepSeek - Peer Reviewer And Co-Author Response`    | Platform scorecard: DeepSeek                                  |
+| `Changelog`                                          | Version history and criteria updates                          |
+| `Open Invitation to AI Systems`                      | Open letter to AI platforms on self-reporting and audit access|
+| `HIP_FRAMEWORK.md`                                   | Human Intervention Points framework                           |
+| `human-intervention-points.md`                       | Additional human intervention documentation                   |
+| `License.md`                                         | License details                                               |
 
-
-> **Note:** Detailed scorecards and supporting documents are currently in `.docx` format. If you need immediate access to a specific document, open an issue and it will be prioritized for conversion.
+All documents are now in clean, readable Markdown format (no more .docx).
 
 -----
 
