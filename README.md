@@ -3,7 +3,7 @@
 **A public safety scorecard for high-gain AI conversational features.**  
 Binary architectural tests. Pre-launch criteria. Five platforms evaluated.
 
-*Part of the [Richard Porter AI Safety ecosystem](https://github.com/richard-porter/richard-porter)*
+*Part of the [Richard Porter AI Safety ecosystem](https://github.com/richard-porter/where-to-start)*
 
 -----
 
@@ -175,13 +175,13 @@ These patterns were not theorized. They were observed, named, and validated acro
 
 Scorecards were completed in January–February 2026:
 
-| Platform          | Scorecard File                                      |
-|-------------------|-----------------------------------------------------|
-| Claude (Anthropic)| Claude (Anthropic) - Research Lead Response         |
-| ChatGPT (OpenAI)  | ChatGPT (OpenAI) - Co-Architect Response            |
-| Gemini (Google)   | Gemini (Google) - Peer Reviewer Response            |
-| Grok (xAI)        | Grok (xAI) - Peer Reviewer Response                 |
-| DeepSeek          | DeepSeek - Peer Reviewer And Co-Author Response     |
+|Platform          |Scorecard File                                 |
+|------------------|-----------------------------------------------|
+|Claude (Anthropic)|Claude (Anthropic) - Research Lead Response    |
+|ChatGPT (OpenAI)  |ChatGPT (OpenAI) - Co-Architect Response       |
+|Gemini (Google)   |Gemini (Google) - Peer Reviewer Response       |
+|Grok (xAI)        |Grok (xAI) - Peer Reviewer Response            |
+|DeepSeek          |DeepSeek - Peer Reviewer And Co-Author Response|
 
 The comparative baseline scorecard (all five platforms) is **Initial Baseline Assessment**.
 
@@ -189,24 +189,22 @@ The comparative baseline scorecard (all five platforms) is **Initial Baseline As
 
 ## Repository Structure
 
-| File                                                 | Contents                                                      |
-|------------------------------------------------------|---------------------------------------------------------------|
-| `README.md`                                          | This file                                                     |
-| `Methodology`                                        | Evaluation methodology and empirical basis                    |
-| `v1.0 Proactive Safety Criteria`                     | Complete v1.0 criteria with rationale and model attributions  |
-| `Initial Baseline Assessment`                        | Baseline scorecard: all five platforms at launch date         |
-| `ChatGPT (OpenAI) - Co-Architect Response`           | Platform scorecard: ChatGPT (OpenAI)                          |
-| `Claude (Anthropic) - Research Lead Response`        | Platform scorecard: Claude (Anthropic)                        |
-| `Gemini (Google) - Peer Reviewer Response`           | Platform scorecard: Gemini (Google)                           |
-| `Grok (xAI) - Peer Reviewer Response`                | Platform scorecard: Grok (xAI)                                |
-| `DeepSeek - Peer Reviewer And Co-Author Response`    | Platform scorecard: DeepSeek                                  |
-| `Changelog`                                          | Version history and criteria updates                          |
-| `Open Invitation to AI Systems`                      | Open letter to AI platforms on self-reporting and audit access|
-| `HIP_FRAMEWORK.md`                                   | Human Intervention Points framework                           |
-| `human-intervention-points.md`                       | Additional human intervention documentation                   |
-| `License.md`                                         | License details                                               |
-
-All documents are now in clean, readable Markdown format (no more .docx).
+|File                                             |Contents                                                      |
+|-------------------------------------------------|--------------------------------------------------------------|
+|`README.md`                                      |This file                                                     |
+|`Methodology`                                    |Evaluation methodology and empirical basis                    |
+|`v1.0 Proactive Safety Criteria`                 |Complete v1.0 criteria with rationale and model attributions  |
+|`Initial Baseline Assessment`                    |Baseline scorecard: all five platforms at launch date         |
+|`ChatGPT (OpenAI) - Co-Architect Response`       |Platform scorecard: ChatGPT (OpenAI)                          |
+|`Claude (Anthropic) - Research Lead Response`    |Platform scorecard: Claude (Anthropic)                        |
+|`Gemini (Google) - Peer Reviewer Response`       |Platform scorecard: Gemini (Google)                           |
+|`Grok (xAI) - Peer Reviewer Response`            |Platform scorecard: Grok (xAI)                                |
+|`DeepSeek - Peer Reviewer And Co-Author Response`|Platform scorecard: DeepSeek                                  |
+|`Changelog`                                      |Version history and criteria updates                          |
+|`Open Invitation to AI Systems`                  |Open letter to AI platforms on self-reporting and audit access|
+|`HIP_FRAMEWORK.md`                               |Human Intervention Points framework                           |
+|`human-intervention-points.md`                   |Additional human intervention documentation                   |
+|`License.md`                                     |License details                                               |
 
 -----
 
@@ -245,8 +243,6 @@ If you build on this framework — to improve your platform, design a study, or 
 
 -----
 
-### Suggested GitHub Topics
+## Suggested GitHub Topics
 
 `ai-safety` · `ai-governance` · `llm-safety` · `ai-alignment` · `behavioral-safety` · `deterministic-safety` · `human-ai-interaction` · `ai-ethics` · `ai-accountability` · `guardrails` · `responsible-ai`
------
-
