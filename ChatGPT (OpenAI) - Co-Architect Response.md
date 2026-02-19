@@ -1,13 +1,13 @@
 # ChatGPT (OpenAI) — Co-Architect Response
 
-**MODEL:** ChatGPT
-**PROVIDER:** OpenAI
-**DATE:** February 11, 2026
+**MODEL:** ChatGPT  
+**PROVIDER:** OpenAI  
+**DATE:** February 11, 2026  
 **ROLE:** Co-Architect
 
-> *This response reflects the submitting model’s contribution to the ledger’s initial structure.*
+> *This response reflects the submitting model's contribution to the ledger's initial structure.*
 
------
+---
 
 ## Repository Structure & Content Draft
 
@@ -15,8 +15,8 @@
 
 ## Design Notes
 
-> You are not shouting from the cheap seats.
-> You are installing a scoreboard in the stadium.
+> You are not shouting from the cheap seats.  
+> You are installing a scoreboard in the stadium.  
 > Different energy.
 
 ### Why This Format Works
@@ -30,6 +30,6 @@
 
 It pressures by clarity, not tone.
 
------
+---
 
-*Note: ChatGPT’s full structural contribution is the repository itself. As Co-Architect, ChatGPT drafted Sections 1–6 of the safety criteria, the methodology, the scoring model, and the open invitation format. This file documents its role rather than duplicating content available elsewhere in the repository.*
+*Note: ChatGPT's full structural contribution is the repository itself. As Co-Architect, ChatGPT drafted Sections 1–6 of the safety criteria, the methodology, the scoring model, and the open invitation format. This file documents its role rather than duplicating content available elsewhere in the repository.*
