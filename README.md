@@ -26,6 +26,18 @@ The v1.0 criteria were developed through multi-model peer contribution across fi
 
 -----
 
+## Regulatory Framing
+
+The binary scoring methodology in this ledger is modeled on the logic of medical device safety regulation, not content moderation policy.
+
+Medical devices that fail in high-stakes contexts — implantable defibrillators, insulin pumps, surgical equipment — are not evaluated on whether the manufacturer intended them to work correctly. They are evaluated on whether the architecture makes failure predictable, detectable, and bounded. The burden of proof is on the device, not the patient.
+
+AI features operating in high-gain domains warrant the same standard. A platform cannot argue good intentions against a binary architectural test. Either the safeguard is structurally present or it isn’t — the same way a defibrillator either has a fail-closed circuit or it doesn’t.
+
+This framing has a direct policy implication: regulators evaluating AI in high-risk domains already have a model for this. The criteria in this ledger are designed to be directly usable as pre-launch gates in regulatory frameworks, not merely as voluntary transparency benchmarks.
+
+-----
+
 ## What This Ledger Evaluates
 
 This ledger evaluates whether specific architectural features **exist** — not whether a company’s intentions are good, nor whether a feature is morally acceptable.
@@ -189,22 +201,23 @@ The comparative baseline scorecard (all five platforms) is **Initial Baseline As
 
 ## Repository Structure
 
-|File                                             |Contents                                                      |
-|-------------------------------------------------|--------------------------------------------------------------|
-|`README.md`                                      |This file                                                     |
-|`Methodology`                                    |Evaluation methodology and empirical basis                    |
-|`v1.0 Proactive Safety Criteria`                 |Complete v1.0 criteria with rationale and model attributions  |
-|`Initial Baseline Assessment`                    |Baseline scorecard: all five platforms at launch date         |
-|`ChatGPT (OpenAI) - Co-Architect Response`       |Platform scorecard: ChatGPT (OpenAI)                          |
-|`Claude (Anthropic) - Research Lead Response`    |Platform scorecard: Claude (Anthropic)                        |
-|`Gemini (Google) - Peer Reviewer Response`       |Platform scorecard: Gemini (Google)                           |
-|`Grok (xAI) - Peer Reviewer Response`            |Platform scorecard: Grok (xAI)                                |
-|`DeepSeek - Peer Reviewer And Co-Author Response`|Platform scorecard: DeepSeek                                  |
-|`Changelog`                                      |Version history and criteria updates                          |
-|`Open Invitation to AI Systems`                  |Open letter to AI platforms on self-reporting and audit access|
-|`HIP_FRAMEWORK.md`                               |Human Intervention Points framework                           |
-|`human-intervention-points.md`                   |Additional human intervention documentation                   |
-|`License.md`                                     |License details                                               |
+|File                                             |Contents                                                              |
+|-------------------------------------------------|----------------------------------------------------------------------|
+|`README.md`                                      |This file                                                             |
+|`Methodology`                                    |Evaluation methodology and empirical basis                            |
+|`v1.0 Proactive Safety Criteria`                 |Complete v1.0 criteria with rationale and model attributions          |
+|`Initial Baseline Assessment`                    |Baseline scorecard: all five platforms at launch date                 |
+|`ChatGPT (OpenAI) - Co-Architect Response`       |Platform scorecard: ChatGPT (OpenAI)                                  |
+|`Claude (Anthropic) - Research Lead Response`    |Platform scorecard: Claude (Anthropic)                                |
+|`Gemini (Google) - Peer Reviewer Response`       |Platform scorecard: Gemini (Google)                                   |
+|`Grok (xAI) - Peer Reviewer Response`            |Platform scorecard: Grok (xAI)                                        |
+|`DeepSeek - Peer Reviewer And Co-Author Response`|Platform scorecard: DeepSeek                                          |
+|`therapy-mode-safety-ledger.md`                  |Safety criteria for AI-assisted therapeutic and mental health features|
+|`Changelog`                                      |Version history and criteria updates                                  |
+|`Open Invitation to AI Systems`                  |Open letter to AI platforms on self-reporting and audit access        |
+|`HIP_FRAMEWORK.md`                               |Human Intervention Points framework                                   |
+|`human-intervention-points.md`                   |Additional human intervention documentation                           |
+|`License.md`                                     |License details                                                       |
 
 -----
 
