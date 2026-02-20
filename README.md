@@ -1,4 +1,4 @@
-# Adult Mode Safety Ledger
+# Safety Ledgers
 
 **A public safety scorecard for high-gain AI conversational features.**  
 Binary architectural tests. Pre-launch criteria. Five platforms evaluated.
