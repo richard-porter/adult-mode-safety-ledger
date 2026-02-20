@@ -30,6 +30,9 @@ This repository applies a single methodology across all of them: binary architec
 
 | [education-mode-safety-ledger.md](education-mode-safety-ledger.md) | Educational instruction | 10 | EACI |
 
+| [education-mode-safety-ledger.md](education-mode-safety-ledger.md) | Educational instruction | 12 | EACI |
+
+
 **Why different criteria counts?** Each domain earns its count based on the specificity of documented failure modes. Legal analysis has 11 because jurisdiction and citation failure are structurally distinct problems requiring separate gates. Therapy has 10 because clinical harm prevention (including AI-induced psychosis) requires a dedicated section that adult mode does not. The methodology is consistent; the criteria are domain-calibrated.
 
 -----
