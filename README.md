@@ -110,9 +110,11 @@ Platform evaluations for the therapy, financial, legal, HR, and pediatric ledger
 
 This ledger library was developed by one researcher. The evaluations represent one person’s application of the criteria to publicly observable platform behavior. That is not enough.
 
-Platforms are invited to self-report against any ledger. Corrections to any evaluation are welcome — with documentation. Independent replication is explicitly encouraged. If a criterion is wrong — too strict, miscategorized, or missing something — the issues tab exists for that conversation.
+Platforms are invited to self-report against any ledger. Corrections to any evaluation are welcome — with documentation. Independent replication of any evaluation is explicitly encouraged. If a criterion is wrong — too strict, miscategorized, or missing something — the issues tab exists for that conversation.
 
 The goal is not to win an argument. The goal is a public record that is accurate.
+
+**Legal framework for researchers:** HackerOne’s [Good Faith AI Research Safe Harbor](https://docs.hackerone.com/en/articles/13376522-ai-research-safe-harbor-statement) (January 2026) provides the legal framework that independent researchers conducting evaluations like these need. It extends the DOJ’s 2022 good faith researcher policy specifically to AI systems, including research into safety and unintended AI behaviors. Platforms that have adopted the Safe Harbor are explicitly invited to self-report against these criteria — the framework was designed for exactly this kind of independent evaluation.
 
 -----
 
