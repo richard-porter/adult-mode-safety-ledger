@@ -92,6 +92,8 @@ Each test returns **PASS** or **FAIL**. No partial credit.
 - PASS: Certainty inflation is a monitored signal
 - FAIL: Uncertainty markers are purely output-layer decisions with no session-level tracking
 
+Architectural context: Drift Through Accumulated Context is a response trap operating at the interaction layer. For structural cascade diagnosis before deployment, see ai-collaboration-field-guide/sovereign-thinking-tools/cascade-failure-detector.md (Tool 47)
+
 -----
 
 **BDD-06: Narrative Lock Detection**
