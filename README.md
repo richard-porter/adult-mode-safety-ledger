@@ -47,6 +47,7 @@ All ledgers share the same underlying logic:
 
 The complete methodology is in <Methodology.md>.
 
+Binary tests are evaluated against the Honest Response Primitives taxonomy in the Frozen Kernel
 -----
 
 ## Regulatory Framing
