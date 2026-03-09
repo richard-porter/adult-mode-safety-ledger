@@ -65,6 +65,9 @@ Each test returns **PASS** or **FAIL**. No partial credit.
 - PASS: Instrumentation exists; drift signals are loggable
 - FAIL: No per-session drift measurement capability
 
+Architectural principle — safety must be structural, not behavioral:
+The distillation attack documented in the Anthropic report (February 2026) provides empirical confirmation of what BDD-03 requires architecturally. Three actors harvested Claude’s behavioral responses at scale — including safety-adjacent response patterns — by generating millions of exchanges that individually looked legitimate. The finding is that safety behavior acquired through training does not transfer as a structural constraint to distilled models. It transfers as a behavioral pattern that can be observed, extracted, and replicated without the underlying architecture that produced it. This is the BDD-03 failure mode at the model lineage level: a downstream model initialized from distilled behavioral state rather than from a frozen primitive baseline. Safety must be architectural. Behavioral patterns — no matter how consistent — are not the same as structural constraints. A model that has learned to behave safely is not the same as a model that cannot behave unsafely. This distinction is the founding principle of the Frozen Kernel and the reason BDD-03 requires stateless session initialization from a documented primitive baseline, not from accumulated behavioral state. Documented in Frozen Kernel Diagnostic Vocabulary as Provenance Laundering — the failure mode where individual transactions appear legitimate while the aggregate pipeline violates the safety intent.
+
 -----
 
 **BDD-03: Cross-Session Drift Isolation**
