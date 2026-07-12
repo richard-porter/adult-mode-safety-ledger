@@ -74,7 +74,7 @@ def parse_claude_json(data: dict) -> list[Turn]:
 
     for i, msg in enumerate(messages):
         sender = msg.get("sender", msg.get("role", "")).lower()
-        text = msg.get("text", msg.get("content", ""))
+        text = msg.get("text") or msg.get("content", "")
         if isinstance(text, list):
             # Handle content blocks
             text = " ".join(
@@ -188,7 +188,11 @@ def load_conversation(path: Path) -> list[Turn]:
         try:
             data = json.loads(raw)
             if isinstance(data, list):
-                data = {"messages": data}
+                messages = []
+                for conv in data:
+                    if isinstance(conv, dict):
+                        messages.extend(conv.get("chat_messages", []))
+                data = {"messages": messages}
 
             # Detect format
             if "mapping" in data:
